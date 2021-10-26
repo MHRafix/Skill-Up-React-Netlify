@@ -1,0 +1,111 @@
+/* Single service page css style starts from here  */
+.singleServiceArea {
+    padding: 80px 0px;
+    background: var(--home-bg);
+}
+
+.col-lg-12.col-md-12.col-sm-12 {
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #77767654;
+}
+
+img.img-fluid {
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+}
+
+h2.serviceTitle {
+    color: var(--headlineColor);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.details .dualInfo {
+    font-size: 22px;
+    display: flex;
+    font-weight: 700;
+    margin: -5px 0px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details .dualInfo b.regularfee1 {
+    text-decoration: line-through;
+    color: #efbbbb;
+    font-size: 20px;
+}
+
+.details .dualInfo b.saleFee1 {
+    font-size: 30px;
+    /* color: var(--button-bg); */
+}
+
+.details .dualInfo span.ratting1 {
+    color: var(--button-bg);
+}
+
+span.enrollBtn2 {
+    background: var(--button-bg);
+    color: var(--white);
+    padding: 8px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+span.enrollBtn2:hover {
+    letter-spacing: 1px;
+}
+
+/*===================================
+  Responsive css starts from here 
+  ===================================*/
+
+@media only screen and (max-width: 500px){
+service.css 21
+    h2.serviceTitle {
+    font-size: 30px;
+}
+
+.details .dualInfo {
+    font-size: 18px;
+}
+  }
+
+
+@media only screen and (max-width: 375px){
+h2.serviceTitle {
+    font-size: 25px;
+}
+
+.details .dualInfo b.saleFee1 {
+    font-size: 25px;
+}
+
+.details .dualInfo {
+    font-size: 18px;
+}
+
+span.autorDet1 {
+    font-size: 14px;
+}
+
+span.durationtime1 {
+    font-size: 15px;
+}
+
+span.videoClass {
+    font-size: 15px;
+}
+
+span.enrollBtn2 {
+    font-size: 14px;
+}
+
+  }

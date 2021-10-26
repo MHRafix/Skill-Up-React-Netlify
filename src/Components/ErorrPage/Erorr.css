@@ -1,0 +1,11 @@
+/* Erorr Page Css Style Starts From Here  */
+.erorrPageDet {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+h2.erorrHeadline {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
